@@ -67,17 +67,17 @@ export const TopNav: React.FC<TopNavProps> = ({
       }`}
     >
       {/* Left: Dynamic Breadcrumb */}
-      <div className="flex items-center gap-3 min-w-0 pr-4">
+      <div className="flex items-center gap-3 shrink-0 pr-4">
         <div className="flex items-center gap-2">
           <span className="text-xs text-[#94A3B8] font-medium hidden sm:inline">FinGuard /</span>
-          <h1 className="text-sm font-semibold tracking-tight text-[#0F172A] truncate">
+          <h1 className="text-sm font-semibold tracking-tight text-[#0F172A] whitespace-nowrap">
             {getTabTitle(currentTab)}
           </h1>
         </div>
       </div>
 
       {/* Center: System Telemetry */}
-      <div className="hidden xl:flex items-center gap-6 text-xs text-[#64748B] border-x border-[#E2E8F0] px-6 py-1">
+      <div className="hidden 2xl:flex items-center gap-5 text-xs text-[#64748B] border-x border-[#E2E8F0] px-5 py-1 shrink-0">
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-[#059669]" />
           <span className="text-[#0F172A] font-medium">Models Operational</span>
