@@ -1,0 +1,16 @@
+{
+  "model_type": "TF-IDF + Multinomial Logistic Regression",
+  "vocabulary_size": 500,
+  "training_samples": 75,
+  "in_sample_accuracy": 0.9867,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "sentiment_weights": {
+    "negative": -1.0,
+    "neutral": 0.0,
+    "positive": 1.0
+  }
+}

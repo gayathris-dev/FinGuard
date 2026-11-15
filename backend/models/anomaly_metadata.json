@@ -1,0 +1,18 @@
+{
+  "model_type": "Isolation Forest",
+  "contamination": 0.045,
+  "n_estimators": 150,
+  "total_samples": 12000,
+  "anomalies_detected": 540,
+  "anomaly_rate_percent": 4.5,
+  "score_min": -0.1394974309175233,
+  "score_max": 0.24788381252876723,
+  "score_mean": 0.1598600119748968,
+  "features": [
+    "amount",
+    "distance_miles",
+    "frequency_24h",
+    "hour",
+    "is_foreign"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "model_type": "Gradient Boosting Credit Classifier",
+  "training_samples": 3750,
+  "test_samples": 1250,
+  "metrics": {
+    "roc_auc": 0.7683,
+    "precision": 0.5789,
+    "recall": 0.1358,
+    "f1_score": 0.22,
+    "confusion_matrix": {
+      "true_negative": 1161,
+      "false_positive": 8,
+      "false_negative": 70,
+      "true_positive": 11
+    }
+  },
+  "top_feature_importance": [
+    {
+      "feature": "payment_history_score",
+      "importance": 22.11
+    },
+    {
+      "feature": "credit_score",
+      "importance": 17.8
+    },
+    {
+      "feature": "debt_to_income",
+      "importance": 15.99
+    },
+    {
+      "feature": "annual_income",
+      "importance": 11.08
+    },
+    {
+      "feature": "loan_amount",
+      "importance": 7.9
+    },
+    {
+      "feature": "existing_debt",
+      "importance": 6.25
+    },
+    {
+      "feature": "employment_duration_years",
+      "importance": 4.42
+    },
+    {
+      "feature": "age",
+      "importance": 4.27
+    },
+    {
+      "feature": "previous_defaults",
+      "importance": 2.42
+    },
+    {
+      "feature": "loan_duration_months",
+      "importance": 2.2
+    }
+  ],
+  "classes": [
+    "No Default",
+    "Default"
+  ]
+}
